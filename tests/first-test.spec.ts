@@ -25,7 +25,7 @@ const user_info = [
 test('has title', async ({ page }) => {
     await page.goto('https://playwright.dev/');
 });
-
+//make test describe to isolate 
 test('make login standard user', async ({page}) => {
     await page.getByLabel('user-name').fill(user[0]);
     await page.getByLabel('password').fill(password);
