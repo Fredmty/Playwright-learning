@@ -22,7 +22,7 @@ import { test, expect, type Page } from '@playwright/test';
         '9999999'
     ]
 
-test.describe('New Todo', () => {
+test.describe('Full first buy', () => {
 
     test('make login standard user', async ({page}) => {
         await page.goto('https://www.saucedemo.com/');
