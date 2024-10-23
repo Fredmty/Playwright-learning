@@ -25,16 +25,5 @@ test.describe('problem user', () => {
         await expect(page.getByText('$49.99')).toContainText('$49.99');
         await page.getByText('Add to cart').click();
         await expect(page.getByText('Add to cart')).toBeTruthy();
-        // await expect(page.getByTestId('shopping-cart-badge')).toBeTruthy();
-        // //await expect(page.getByTestId('shopping-cart-badge')).toHaveValue('1');
-        // await page.getByText('1').click({force:true});
-        // await expect(page.getByText('remove')).toBeTruthy();
-        // await expect(page.getByText('Sauce Labs Backpack')).toContainText('Sauce Labs Backpack');
-        // await expect(page.getByText('carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.')).toContainText('carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.');
-        // await expect(page.getByText('$29.99')).toContainText('$29.99');
-        // await page.getByText('checkout').click();
-        // await page.getByPlaceholder('First Name').fill('1');
-        // await page.getByPlaceholder('Last Name').fill('2');
-        // await expect(page.getByPlaceholder('First Name')).toBe('2');
     });
 });
